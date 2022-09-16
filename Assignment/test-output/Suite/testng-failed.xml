@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Set New Resolution Test(failed)">
+    <classes>
+      <class name="Assignment1.Tests.SetNewResoluationTest">
+        <methods>
+          <include name="setNewResoluation"/>
+        </methods>
+      </class> <!-- Assignment1.Tests.SetNewResoluationTest -->
+    </classes>
+  </test> <!-- Set New Resolution Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Wrong Credential Test(failed)">
+    <classes>
+      <class name="Assignment1.Tests.WrongCredentialTest">
+        <methods>
+          <include name="wrongCridential"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- Assignment1.Tests.WrongCredentialTest -->
+    </classes>
+  </test> <!-- Wrong Credential Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

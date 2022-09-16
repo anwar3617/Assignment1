@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T00:57:17 IST" name="Suite" finished-at="2022-09-16T00:58:05 IST" duration-ms="47671">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T00:57:17 IST" name="Gmail login Test" finished-at="2022-09-16T00:58:03 IST" duration-ms="46319">
+      <class name="Assignment1.Tests.GmailLoginTest">
+        <test-method signature="assignment1()[pri:0, instance:Assignment1.Tests.GmailLoginTest@273e7444]" started-at="2022-09-16T00:57:17 IST" name="assignment1" finished-at="2022-09-16T00:57:48 IST" duration-ms="30546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment1 -->
+        <test-method signature="assignment1Part2()[pri:0, instance:Assignment1.Tests.GmailLoginTest@273e7444]" started-at="2022-09-16T00:57:48 IST" name="assignment1Part2" finished-at="2022-09-16T00:58:03 IST" depends-on-methods="Assignment1.Tests.GmailLoginTest.assignment1" duration-ms="15515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment1Part2 -->
+      </class> <!-- Assignment1.Tests.GmailLoginTest -->
+    </test> <!-- Gmail login Test -->
+    <test started-at="2022-09-16T00:57:17 IST" name="Set New Resolution Test" finished-at="2022-09-16T00:58:04 IST" duration-ms="47524">
+      <class name="Assignment1.Tests.SetNewResolutionTest">
+        <test-method signature="assignment3()[pri:0, instance:Assignment1.Tests.SetNewResolutionTest@548d708a]" started-at="2022-09-16T00:57:17 IST" name="assignment3" finished-at="2022-09-16T00:58:04 IST" duration-ms="47365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment3 -->
+      </class> <!-- Assignment1.Tests.SetNewResolutionTest -->
+    </test> <!-- Set New Resolution Test -->
+    <test started-at="2022-09-16T00:57:17 IST" name="Wrong Credential Test" finished-at="2022-09-16T00:58:05 IST" duration-ms="47671">
+      <class name="Assignment1.Tests.WrongCredentialTest">
+        <test-method signature="assingment2()[pri:0, instance:Assignment1.Tests.WrongCredentialTest@19e4653c]" started-at="2022-09-16T00:57:17 IST" name="assingment2" finished-at="2022-09-16T00:57:51 IST" duration-ms="34059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assingment2 -->
+        <test-method signature="assignment2Part2()[pri:0, instance:Assignment1.Tests.WrongCredentialTest@19e4653c]" started-at="2022-09-16T00:57:51 IST" name="assignment2Part2" finished-at="2022-09-16T00:58:05 IST" depends-on-methods="Assignment1.Tests.WrongCredentialTest.assingment2" duration-ms="13422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment2Part2 -->
+      </class> <!-- Assignment1.Tests.WrongCredentialTest -->
+    </test> <!-- Wrong Credential Test -->
+  </suite> <!-- Suite -->
+</testng-results>
